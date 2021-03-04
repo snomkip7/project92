@@ -39,11 +39,13 @@ function check(){
             player1_score = player1_score +1;
             document.getElementById("player1_score").innerHTML = player1_score;
             console.log(player1_score);
+            console.log("it is saying " + document.getElementById("player1_score").innerHTML);
         }
         else{
             player2_score = player2_score +1;
             document.getElementById("player2_score").innerHTML = player2_score;
             console.log(player2_score);
+            console.log("it is saying " + document.getElementById("player2_score").innerHTML);
         }
     }
     else{
